@@ -16,5 +16,14 @@ $ webpack
 ## Or -w to listen changes
 
 $ webpack -w
-         
+
+## Or add build to script in package.json
+
+"scripts":{
+    "build": "webpack --mode development"
+}
+
+  ### And execute
+
+    $ npm run build         
 
