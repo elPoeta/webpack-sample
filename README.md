@@ -11,10 +11,10 @@ $ npm i -D css-loader style-loader
 
 ## Run webpack 
 
-$ webpack src/js/app.js --output dist/bundle.js --mode development --watch
+$ webpack
 
-        modes : [ development - production - none ] => default: production
-        --watch : look every change
+## Or -w to listen changes
 
+$ webpack -w
          
 
