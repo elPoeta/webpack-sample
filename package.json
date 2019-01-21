@@ -4,7 +4,8 @@
   "description": "This is a webpack app sample version 4",
   "main": "app.js",
   "scripts": {
-    "build": "webpack --mode development"
+    "start": "webpack-dev-server",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",

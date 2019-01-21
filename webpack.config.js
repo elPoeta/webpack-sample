@@ -1,5 +1,10 @@
+const myPath = __dirname +'/dist';
+
 module.exports = {
-    entry : './src/js/app.js',
+  entry : {
+    main: './src/js/app.js',
+    other: './src/js/other.js'
+  },
     module:{
         rules: [
     
@@ -19,7 +24,7 @@ module.exports = {
         extensions: ['*', '.js', 'css'],
       },
       output: {
-        path: __dirname +'/dist',
-        filename : 'bundle.js'
+        path: myPath,
+        filename : '[name].bundle.js'
     }
 }
